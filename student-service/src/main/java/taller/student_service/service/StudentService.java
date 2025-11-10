@@ -25,5 +25,6 @@ public Student update(Student student) {
     existing.setCorreo(student.getCorreo());
 
     return repository.save(existing);
-}    public void delete(Long id) { repository.deleteById(id); }
+}
+    public void delete(Long id) { repository.deleteById(id); }
 }
