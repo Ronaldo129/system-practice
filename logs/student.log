@@ -1,0 +1,462 @@
+2025-11-10 17:01:09 [main] INFO  t.s.StudentServiceApplication - Starting StudentServiceApplication using Java 17.0.12 with PID 15976 (D:\cloancion\system-practice\student-service\target\classes started by xrl8 in D:\cloancion\system-practice)
+2025-11-10 17:01:09 [main] INFO  t.s.StudentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 17:01:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10 17:01:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 172 ms. Found 1 JPA repository interface.
+2025-11-10 17:01:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-11-10 17:01:14 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-11-10 17:01:14 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 17:01:14 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-10 17:01:14 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 17:01:14 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5291 ms
+2025-11-10 17:01:17 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10 17:01:18 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-10 17:01:18 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-10 17:01:20 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10 17:01:20 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-10 17:01:21 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4656fcc5
+2025-11-10 17:01:21 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-10 17:01:21 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.14
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-10 17:01:26 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10 17:01:26 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10 17:01:28 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10 17:01:28 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+2025-11-10 17:01:29 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-11-10 17:01:29 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-11-10 17:01:30 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-11-10 17:01:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-11-10 17:01:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-11-10 17:01:31 [main] INFO  t.s.StudentServiceApplication - Started StudentServiceApplication in 23.012 seconds (process running for 23.881)
+2025-11-10 17:03:55 [main] INFO  t.s.StudentServiceApplication - Starting StudentServiceApplication using Java 17.0.12 with PID 18084 (D:\cloancion\system-practice\student-service\target\classes started by xrl8 in D:\cloancion\system-practice)
+2025-11-10 17:03:55 [main] INFO  t.s.StudentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 17:03:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10 17:03:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 167 ms. Found 1 JPA repository interface.
+2025-11-10 17:03:58 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c12e2f9b-83bf-3624-bdce-bfed4085ad04
+2025-11-10 17:03:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-11-10 17:03:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-11-10 17:03:59 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 17:03:59 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-10 17:03:59 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 17:03:59 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4294 ms
+2025-11-10 17:04:00 [main] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-11-10 17:04:01 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10 17:04:01 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-10 17:04:01 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-10 17:04:02 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10 17:04:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-10 17:04:02 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@d6d683e
+2025-11-10 17:04:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-10 17:04:02 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.14
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-10 17:04:04 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10 17:04:04 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10 17:04:05 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10 17:04:05 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+2025-11-10 17:04:05 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-11-10 17:04:05 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-11-10 17:04:05 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-11-10 17:04:07 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-10 17:04:07 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compositeCompatibilityVerifier' defined in class path resource [org/springframework/cloud/configuration/CompatibilityVerifierAutoConfiguration.class]: Failed to instantiate [org.springframework.cloud.configuration.CompositeCompatibilityVerifier]: Factory method 'compositeCompatibilityVerifier' threw exception with message: Spring Cloud/ Spring Boot version compatibility checks have failed: [[VerificationResult@16ca4532 description = 'Spring Boot [3.5.7] is not compatible with this Spring Cloud release train', action = 'Change Spring Boot version to one of the following versions [3.0.x, 3.1.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]']]
+2025-11-10 17:04:07 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10 17:04:07 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-10 17:04:07 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-10 17:04:07 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-10 17:04:07 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-10 17:04:07 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Boot [3.5.7] is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Change Spring Boot version to one of the following versions [3.0.x, 3.1.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2025-11-10 17:04:46 [main] INFO  t.s.StudentServiceApplication - Starting StudentServiceApplication using Java 17.0.12 with PID 9124 (D:\cloancion\system-practice\student-service\target\classes started by xrl8 in D:\cloancion\system-practice)
+2025-11-10 17:04:46 [main] INFO  t.s.StudentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 17:04:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10 17:04:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interface.
+2025-11-10 17:04:48 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c12e2f9b-83bf-3624-bdce-bfed4085ad04
+2025-11-10 17:04:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-11-10 17:04:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-11-10 17:04:49 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 17:04:49 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-10 17:04:49 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 17:04:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3259 ms
+2025-11-10 17:04:50 [main] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-11-10 17:04:51 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10 17:04:51 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-10 17:04:51 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-10 17:04:51 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10 17:04:51 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-10 17:04:52 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c53bd49
+2025-11-10 17:04:52 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-10 17:04:52 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.14
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-10 17:04:53 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10 17:04:53 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10 17:04:53 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10 17:04:53 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+2025-11-10 17:04:54 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-11-10 17:04:54 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-11-10 17:04:54 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-11-10 17:04:55 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-10 17:04:55 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compositeCompatibilityVerifier' defined in class path resource [org/springframework/cloud/configuration/CompatibilityVerifierAutoConfiguration.class]: Failed to instantiate [org.springframework.cloud.configuration.CompositeCompatibilityVerifier]: Factory method 'compositeCompatibilityVerifier' threw exception with message: Spring Cloud/ Spring Boot version compatibility checks have failed: [[VerificationResult@7715d43c description = 'Spring Boot [3.5.7] is not compatible with this Spring Cloud release train', action = 'Change Spring Boot version to one of the following versions [3.0.x, 3.1.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]']]
+2025-11-10 17:04:55 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10 17:04:55 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-10 17:04:55 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-10 17:04:55 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-10 17:04:55 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-10 17:04:56 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Boot [3.5.7] is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Change Spring Boot version to one of the following versions [3.0.x, 3.1.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2025-11-10 17:05:25 [main] INFO  t.s.StudentServiceApplication - Starting StudentServiceApplication using Java 17.0.12 with PID 500 (D:\cloancion\system-practice\student-service\target\classes started by xrl8 in D:\cloancion\system-practice)
+2025-11-10 17:05:25 [main] INFO  t.s.StudentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 17:05:27 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10 17:05:27 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+2025-11-10 17:05:27 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c12e2f9b-83bf-3624-bdce-bfed4085ad04
+2025-11-10 17:05:28 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-11-10 17:05:28 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-11-10 17:05:28 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 17:05:28 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-10 17:05:28 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 17:05:28 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3116 ms
+2025-11-10 17:05:29 [main] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-11-10 17:05:30 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10 17:05:31 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-10 17:05:31 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-10 17:05:31 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10 17:05:31 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-10 17:05:32 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ae958b0
+2025-11-10 17:05:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-10 17:05:32 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.14
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-10 17:05:33 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10 17:05:33 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10 17:05:34 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10 17:05:34 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+2025-11-10 17:05:34 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-11-10 17:05:34 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-11-10 17:05:35 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-11-10 17:05:36 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-10 17:05:36 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compositeCompatibilityVerifier' defined in class path resource [org/springframework/cloud/configuration/CompatibilityVerifierAutoConfiguration.class]: Failed to instantiate [org.springframework.cloud.configuration.CompositeCompatibilityVerifier]: Factory method 'compositeCompatibilityVerifier' threw exception with message: Spring Cloud/ Spring Boot version compatibility checks have failed: [[VerificationResult@6aa85fcf description = 'Spring Boot [3.5.7] is not compatible with this Spring Cloud release train', action = 'Change Spring Boot version to one of the following versions [3.0.x, 3.1.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]']]
+2025-11-10 17:05:36 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10 17:05:36 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-10 17:05:36 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-10 17:05:36 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-10 17:05:36 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-10 17:05:36 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Boot [3.5.7] is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Change Spring Boot version to one of the following versions [3.0.x, 3.1.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2025-11-10 17:06:24 [main] INFO  t.s.StudentServiceApplication - Starting StudentServiceApplication using Java 17.0.12 with PID 6200 (D:\cloancion\system-practice\student-service\target\classes started by xrl8 in D:\cloancion\system-practice)
+2025-11-10 17:06:24 [main] INFO  t.s.StudentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 17:06:27 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10 17:06:27 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 111 ms. Found 1 JPA repository interface.
+2025-11-10 17:06:27 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c12e2f9b-83bf-3624-bdce-bfed4085ad04
+2025-11-10 17:06:28 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-11-10 17:06:28 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-11-10 17:06:28 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 17:06:28 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-10 17:06:28 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 17:06:28 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4125 ms
+2025-11-10 17:06:29 [main] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-11-10 17:06:31 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10 17:06:31 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-10 17:06:31 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-10 17:06:32 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10 17:06:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-10 17:06:32 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7c682e26
+2025-11-10 17:06:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-10 17:06:33 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.14
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-10 17:06:35 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10 17:06:35 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10 17:06:35 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10 17:06:35 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+2025-11-10 17:06:36 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-11-10 17:06:36 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-11-10 17:06:36 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-11-10 17:06:40 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-10 17:06:40 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compositeCompatibilityVerifier' defined in class path resource [org/springframework/cloud/configuration/CompatibilityVerifierAutoConfiguration.class]: Failed to instantiate [org.springframework.cloud.configuration.CompositeCompatibilityVerifier]: Factory method 'compositeCompatibilityVerifier' threw exception with message: Spring Cloud/ Spring Boot version compatibility checks have failed: [[VerificationResult@4c90fc3b description = 'Spring Boot [3.5.7] is not compatible with this Spring Cloud release train', action = 'Change Spring Boot version to one of the following versions [3.0.x, 3.1.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]']]
+2025-11-10 17:06:40 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10 17:06:40 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-10 17:06:40 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-10 17:06:40 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-10 17:06:40 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-10 17:06:40 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Boot [3.5.7] is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Change Spring Boot version to one of the following versions [3.0.x, 3.1.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2025-11-10 17:08:58 [main] INFO  t.s.StudentServiceApplication - Starting StudentServiceApplication using Java 17.0.12 with PID 16992 (D:\cloancion\system-practice\student-service\target\classes started by xrl8 in D:\cloancion\system-practice)
+2025-11-10 17:08:58 [main] INFO  t.s.StudentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 17:09:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10 17:09:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 109 ms. Found 1 JPA repository interface.
+2025-11-10 17:09:01 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c12e2f9b-83bf-3624-bdce-bfed4085ad04
+2025-11-10 17:09:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-11-10 17:09:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-11-10 17:09:02 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 17:09:02 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-10 17:09:02 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 17:09:02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4034 ms
+2025-11-10 17:09:02 [main] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-11-10 17:09:03 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10 17:09:03 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-10 17:09:03 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-10 17:09:04 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10 17:09:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-10 17:09:04 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@43778371
+2025-11-10 17:09:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-10 17:09:05 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.14
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-10 17:09:06 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10 17:09:06 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10 17:09:06 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10 17:09:06 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+2025-11-10 17:09:06 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-11-10 17:09:07 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-11-10 17:09:07 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-11-10 17:09:08 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-10 17:09:08 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compositeCompatibilityVerifier' defined in class path resource [org/springframework/cloud/configuration/CompatibilityVerifierAutoConfiguration.class]: Failed to instantiate [org.springframework.cloud.configuration.CompositeCompatibilityVerifier]: Factory method 'compositeCompatibilityVerifier' threw exception with message: Spring Cloud/ Spring Boot version compatibility checks have failed: [[VerificationResult@75a5a912 description = 'Spring Boot [3.5.7] is not compatible with this Spring Cloud release train', action = 'Change Spring Boot version to one of the following versions [3.0.x, 3.1.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]']]
+2025-11-10 17:09:08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10 17:09:08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-10 17:09:08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-10 17:09:08 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-10 17:09:08 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-10 17:09:08 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Boot [3.5.7] is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Change Spring Boot version to one of the following versions [3.0.x, 3.1.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2025-11-10 17:10:54 [main] INFO  t.s.StudentServiceApplication - Starting StudentServiceApplication using Java 17.0.12 with PID 14868 (D:\cloancion\system-practice\student-service\target\classes started by xrl8 in D:\cloancion\system-practice)
+2025-11-10 17:10:54 [main] INFO  t.s.StudentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 17:10:56 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10 17:10:56 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interface.
+2025-11-10 17:10:56 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d7daa7ed-ada3-3ba2-9ac2-c5f880c572af
+2025-11-10 17:10:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-11-10 17:10:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-11-10 17:10:57 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 17:10:57 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-10 17:10:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 17:10:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3579 ms
+2025-11-10 17:10:58 [main] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-11-10 17:10:58 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10 17:10:58 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-10 17:10:58 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-10 17:10:59 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10 17:10:59 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-10 17:10:59 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d3b272a
+2025-11-10 17:10:59 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-10 17:10:59 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.14
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-10 17:11:01 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10 17:11:01 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10 17:11:01 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10 17:11:01 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+2025-11-10 17:11:02 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-11-10 17:11:02 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-11-10 17:11:02 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-11-10 17:11:04 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-10 17:11:05 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-11-10 17:11:05 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-11-10 17:11:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-11-10 17:11:06 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-10 17:11:06 [main] INFO  t.s.StudentServiceApplication - Started StudentServiceApplication in 14.931 seconds (process running for 15.4)
+2025-11-10 17:11:06 [main] INFO  t.s.StudentServiceApplication - ? Student Service iniciado en puerto 8081
+2025-11-10 17:12:12 [main] INFO  t.s.StudentServiceApplication - Starting StudentServiceApplication using Java 17.0.12 with PID 4860 (D:\cloancion\system-practice\student-service\target\classes started by xrl8 in D:\cloancion\system-practice)
+2025-11-10 17:12:12 [main] INFO  t.s.StudentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 17:12:15 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10 17:12:15 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 112 ms. Found 1 JPA repository interface.
+2025-11-10 17:12:15 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d7daa7ed-ada3-3ba2-9ac2-c5f880c572af
+2025-11-10 17:12:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-11-10 17:12:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-11-10 17:12:17 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 17:12:17 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-10 17:12:17 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 17:12:17 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5072 ms
+2025-11-10 17:12:18 [main] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-11-10 17:12:18 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10 17:12:19 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-10 17:12:19 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-10 17:12:19 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10 17:12:19 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-10 17:12:19 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@17f41739
+2025-11-10 17:12:19 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-10 17:12:20 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.14
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-10 17:12:21 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10 17:12:21 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10 17:12:21 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10 17:12:21 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+2025-11-10 17:12:22 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-11-10 17:12:22 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-11-10 17:12:22 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-11-10 17:12:24 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-10 17:12:24 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-11-10 17:12:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-11-10 17:12:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-11-10 17:12:25 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-10 17:12:25 [main] INFO  t.s.StudentServiceApplication - Started StudentServiceApplication in 15.11 seconds (process running for 15.768)
+2025-11-10 17:12:25 [main] INFO  t.s.StudentServiceApplication - --------- Student Service iniciado en puerto 8081
