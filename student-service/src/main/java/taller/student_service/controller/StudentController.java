@@ -23,6 +23,12 @@ public class StudentController {
     public Student create(@RequestBody Student student) {
         return service.save(student);
     }
+    @PutMapping("/{id}")
+    public Student update(@PathVariable Long id, @RequestBody Student student) {
+        student.setId(id);
+        return service.update(student);
+    } 
+      
 
     @DeleteMapping("/{id}")
     public void delete(@PathVariable Long id) {

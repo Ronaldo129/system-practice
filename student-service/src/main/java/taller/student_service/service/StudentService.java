@@ -16,6 +16,14 @@ public class StudentService {
     public List<Student> findAll() { return repository.findAll(); }
 
     public Student save(Student student) { return repository.save(student); }
+public Student update(Student student) {
+    Student existing = repository.findById(student.getId())
+        .orElseThrow(() -> new RuntimeException("Student not found"));
 
-    public void delete(Long id) { repository.deleteById(id); }
+    existing.setNombre(student.getNombre());
+    existing.setApellido(student.getApellido());
+    existing.setCorreo(student.getCorreo());
+
+    return repository.save(existing);
+}    public void delete(Long id) { repository.deleteById(id); }
 }
