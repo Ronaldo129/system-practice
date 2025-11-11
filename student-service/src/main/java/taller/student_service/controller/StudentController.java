@@ -1,7 +1,10 @@
 package taller.student_service.controller;
-import taller.student_service.model.Student;
-import taller.student_service.service.StudentService;
+
 import org.springframework.web.bind.annotation.*;
+import taller.student_service.dto.StudentRequest;
+import taller.student_service.dto.StudentResponse;
+import taller.student_service.service.StudentService;
+
 import java.util.List;
 
 @RestController
@@ -15,20 +18,19 @@ public class StudentController {
     }
 
     @GetMapping
-    public List<Student> getAll() {
+    public List<StudentResponse> getAll() {
         return service.findAll();
     }
 
     @PostMapping
-    public Student create(@RequestBody Student student) {
-        return service.save(student);
+    public StudentResponse create(@RequestBody StudentRequest request) {
+        return service.save(request);
     }
+
     @PutMapping("/{id}")
-    public Student update(@PathVariable Long id, @RequestBody Student student) {
-        student.setId(id);
-        return service.update(student);
-    } 
-      
+    public StudentResponse update(@PathVariable Long id, @RequestBody StudentRequest request) {
+        return service.update(id, request);
+    }
 
     @DeleteMapping("/{id}")
     public void delete(@PathVariable Long id) {

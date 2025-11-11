@@ -881,3 +881,75 @@ If you want to disable this check, just set the property [spring.cloud.compatibi
 2025-11-10 18:14:54 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
 2025-11-10 18:14:54 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Student(id=3, nombre=Pedro, apellido=Ramirez, correo=pedro.ramirez@example.com)]
 2025-11-10 18:14:54 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-11-11 00:34:40 [main] INFO  t.s.StudentServiceApplication - Starting StudentServiceApplication using Java 17.0.12 with PID 8716 (D:\cloancion\system-practice\student-service\target\classes started by xrl8 in D:\cloancion\system-practice)
+2025-11-11 00:34:40 [main] INFO  t.s.StudentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 00:34:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-11 00:34:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interface.
+2025-11-11 00:34:43 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=0124491b-8471-358d-a7ff-6b768cb85f2c
+2025-11-11 00:34:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-11-11 00:34:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-11-11 00:34:44 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-11 00:34:44 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 00:34:44 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-11 00:34:44 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4260 ms
+2025-11-11 00:34:44 [main] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-11-11 00:34:45 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-11 00:34:45 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-11 00:34:45 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-11 00:34:46 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-11 00:34:46 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-11 00:34:47 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2792c28
+2025-11-11 00:34:47 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-11 00:34:47 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.14
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-11 00:34:48 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-11 00:34:48 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-11 00:34:49 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-11 00:34:49 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 6 mappings in 'requestMappingHandlerMapping'
+2025-11-11 00:34:49 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-11-11 00:34:50 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-11-11 00:34:50 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-11-11 00:34:51 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-11 00:34:51 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-11 00:34:51 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-11-11 00:34:51 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-11-11 00:34:51 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-11-11 00:34:51 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.f.s.DefaultListableBeanFactory - Obtaining singleton bean 'webEndpointServletHandlerMapping' in thread "RMI TCP Connection(2)-127.0.0.1" while other thread holds singleton lock for other beans [simpleDiscoveryClient, simpleDiscoveryProperties, compositeDiscoveryClient]
+2025-11-11 00:34:51 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.f.s.DefaultListableBeanFactory - Obtaining singleton bean 'org.springframework.boot.actuate.autoconfigure.endpoint.web.servlet.WebMvcEndpointManagementContextConfiguration' in thread "RMI TCP Connection(2)-127.0.0.1" while other thread holds singleton lock for other beans [simpleDiscoveryClient, simpleDiscoveryProperties, compositeDiscoveryClient]
+2025-11-11 00:34:51 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.f.s.DefaultListableBeanFactory - Obtaining singleton bean 'management.endpoints.web.cors-org.springframework.boot.actuate.autoconfigure.endpoint.web.CorsEndpointProperties' in thread "RMI TCP Connection(2)-127.0.0.1" while other thread holds singleton lock for other beans [simpleDiscoveryClient, simpleDiscoveryProperties, compositeDiscoveryClient]
+2025-11-11 00:34:51 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-11-11 00:34:51 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.f.s.DefaultListableBeanFactory - Obtaining singleton bean 'controllerEndpointHandlerMapping' in thread "RMI TCP Connection(2)-127.0.0.1" while other thread holds singleton lock for other beans [simpleDiscoveryClient, simpleDiscoveryProperties, compositeDiscoveryClient]
+2025-11-11 00:34:51 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6fb2b972
+2025-11-11 00:34:51 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@73db1a6
+2025-11-11 00:34:51 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-11-11 00:34:51 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 119 ms
+2025-11-11 00:34:52 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-11 00:34:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-11-11 00:34:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-11-11 00:34:54 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-11 00:34:54 [main] INFO  t.s.StudentServiceApplication - Started StudentServiceApplication in 16.976 seconds (process running for 18.838)
+2025-11-11 00:34:54 [main] INFO  t.s.StudentServiceApplication - --------- Student Service iniciado en puerto 8081
+2025-11-11 00:45:13 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/students/3", parameters={}
+2025-11-11 00:45:13 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler taller.student_service.exception.GlobalExceptionHandler#handleAll(Exception)
+2025-11-11 00:45:13 [http-nio-8081-exec-1] ERROR t.s.exception.GlobalExceptionHandler - Error: Request method 'GET' is not supported
+2025-11-11 00:45:13 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-11-11 00:45:13 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Error interno del servidor"]
+2025-11-11 00:45:13 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-11-11 00:45:14 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2025-11-11 00:45:20 [http-nio-8081-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/students", parameters={}
+2025-11-11 00:45:20 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to taller.student_service.controller.StudentController#getAll()
+2025-11-11 00:45:21 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-11-11 00:45:21 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Student(id=2, nombre=Juan, apellido=soto, correo=juan@example.com), Student(id=3, nombre=Pedro, ape (truncated)...]
+2025-11-11 00:45:21 [http-nio-8081-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-11-11 00:46:31 [http-nio-8081-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/students/2", parameters={}
+2025-11-11 00:46:31 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to taller.student_service.controller.StudentController#update(Long, Student)
+2025-11-11 00:46:31 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Student(id=null, nombre=Juan Carlos, apellido=Perez, correo=juanperez@gmail.com)]
+2025-11-11 00:46:31 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-11-11 00:46:31 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Student(id=2, nombre=Juan Carlos, apellido=Perez, correo=juanperez@gmail.com)]
+2025-11-11 00:46:31 [http-nio-8081-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
